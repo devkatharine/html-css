@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=The+Nautigal:wght@700&family=Work+Sans:wght@500&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Roboto:wght@500&family=The+Nautigal:wght@700&family=Work+Sans:wght@500&display=swap');
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: thistle;
+            
+        }
+        div:hover{
+            color: crimson;
+        }
+        main {
+            background-color: white;
+            border-radius: 30px;
+            text-align: center;
+            box-shadow: 5px 5px 5px 5px rgb(230, 71, 97);
+            width: 700px;
+            padding: 16px;
+            margin: auto;
+        }
+        div>p{
+            display: none;
+        }
+        div:hover>p{
+            display: block;
+            color:pink;
+            background-color: black;
+
+        }
+        #d{
+            display: inline-block;
+            border: 1px black;
+            width: 200px;
+            height: 200px;
+            margin: auto;
+            padding: 5px;
+            background-color: rgb(226, 164, 200);
+            border-radius: 10px;
+        }
+        h1{
+            font-family: 'Fredericka the Great', cursive;
+            color: crimson;
+            background-color: rgb(214, 214, 179);
+            border-radius: 10px;
+            
+            
+            height: 50px;
+            text-align: center;
+        }
+        p{
+            font-family: 'Work Sans', sans-serif;
+        }
+        div>p{
+            font-family: 'Work Sans', sans-serif;
+        }
+        div{
+            font-family: 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto</p>
+    <div>Passe o mouse aqui
+        <p>Texto escondido.</p>
+    </div>
+
+    <div id="d">01</div>
+    <div id="d">02</div>
+    <div id="d">03</div>
+
+    </main>
+    
+
+</body>
+</html>

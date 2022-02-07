@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="imagens/Wwalczyszyn-Android-Style-Honeycomb-Books.ico" type="image/x-icon">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+<picture>
+    <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="Imagem flexível">
+</picture>
+
+<h1>Treinando</h1>
+<h2>O baby mais lindo do mundo</h2>
+
+<picture>
+    <source media="(max-width: 750px)" srcset="imagens/lucca300.jpg" type="image/jpg">
+
+
+    <source media="(max-width: 1050px)" srcset="imagens/lucca700.jpg" type="image/jpg">
+
+    <img src="imagens/lucca1000.jpg" alt="imagem flexivel">
+</picture>
+
+<h1>Audios</h1>
+<p>Vamos parender agora a reproduzir audios no nosso site.</p>
+
+<audio src="midias/happy-mistake.mp3" controls autoplay></audio>
+
+<audio preload="metadata" autoplay controls>
+    <source src="midias/I Love My Mom - Reed Mathis.mp3" type="audio/mpeg">
+    <source src="midias/I Love My Mom - Reed Mathis.ogg" type="audio/ogg">
+    <source src="midias/I Love My Mom - Reed Mathis.wav" type="audio/wav"> <!--Evite wav arquivos pesados-->
+    
+    <p>Infelizmente seu navegador não consegue reproduzir audio. <a href="midias/I Love My Mom - Reed Mathis.mp3">Clique aqui para baixar o audio.</a></p>
+
+</audio>
+
+<h1>Videos</h1>
+
+<h2>Videos hospedados localmente</h2>
+
+<video src="midias/praiamp4.mp4" width="560" controls></video>
+
+<h2>Videos do youtube</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jd57vOH7I40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+    </html>

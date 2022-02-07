@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: pink;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            
+        
+        }
+        header {
+            
+            background: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 60px 0px;
+            box-shadow: 10px 5px 10px 5px palevioletred;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+            
+        }
+        article{
+            background-color: lightgray;
+        }
+        article > aside{
+            background-color: lightpink;
+        }
+        nav{
+            background-color: rgb(202, 228, 226);
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            text-decoration: underline;
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos"></section>
+        <section id="notícias">
+            <article>
+                <h2>
+                    Notícias do Brasil
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt suscipit officiis corrupti excepturi vero vitae a doloremque iusto nobis beatae doloribus aspernatur iure repellat exercitationem cum, porro, adipisci voluptatem quod.</p>
+                <aside>
+                    <p>Artigo escrito por Jose da silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    
+</body>
+</html>

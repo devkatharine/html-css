@@ -1,0 +1,39 @@
+header{
+    width: 100%;
+    padding: 17px;
+    margin: auto;
+    background-color: #2C3AB8;
+    color: white;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+a{
+    color: white;
+    padding: 40px;
+    
+}
+main{
+    width: 1000px;
+    padding: 17px;
+    background-color: white;
+    margin: auto;
+}
+p{
+    font-family: Arial, 
+    Helvetica, sans-serif;
+}
+div{
+    display: block;
+    width: 600px;
+    padding: 17px;
+    margin: auto;
+    background-color: #394bebbd;
+    border-radius: 30px;
+}
+body{
+    background-color: #818BEE;
+    text-align: center;
+}
+    
+    
